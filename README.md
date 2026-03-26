@@ -1,6 +1,6 @@
-# Hub-Starter Monorepo 🥗
+# Hub-Starter Monorepo 🚀
 
-B2C ordering software for a healthy restaurant. Built with logic, type-safety, and performance in mind.
+A modern full-stack monorepo boilerplate built with logic, type-safety, and performance in mind.
 
 ## 🏗 Structure
 
@@ -22,7 +22,7 @@ B2C ordering software for a healthy restaurant. Built with logic, type-safety, a
    ```bash
    pnpm db:up     # Starts Postgres via Docker
    pnpm db:push   # syncs schema (from packages/db)
-   pnpm db:seed   # loads initial menu data
+   pnpm db:seed   # loads initial seed data
    ```
 
 3. **Run in development**:

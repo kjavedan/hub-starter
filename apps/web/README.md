@@ -1,6 +1,6 @@
 # Hub-Starter Web 🌐
 
-Next.js frontend for the Hub-Starter ordering system.
+A modern Next.js frontend for the Hub-Starter monorepo.
 
 ## 🛠 Features
 
