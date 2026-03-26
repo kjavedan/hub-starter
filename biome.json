@@ -1,0 +1,125 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.4.8/schema.json",
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "files": {
+    "ignoreUnknown": true,
+    "includes": ["**", "!node_modules", "!.next", "!dist", "!build", "!public"]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineWidth": 100
+  },
+  "javascript": {
+    "formatter": {
+      "semicolons": "always",
+      "quoteStyle": "double",
+      "jsxQuoteStyle": "double",
+      "trailingCommas": "all"
+    }
+  },
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": {
+          "level": "on",
+          "options": {
+            "groups": [
+              ["react", "react/**", "next", "next/**"],
+              ":BLANK_LINE:",
+              ":NODE:",
+              ":BLANK_LINE:",
+              [
+                "a*",
+                "b*",
+                "c*",
+                "d*",
+                "e*",
+                "f*",
+                "g*",
+                "h*",
+                "i*",
+                "j*",
+                "k*",
+                "l*",
+                "m*",
+                "n*",
+                "o*",
+                "p*",
+                "q*",
+                "r*",
+                "s*",
+                "t*",
+                "u*",
+                "v*",
+                "w*",
+                "x*",
+                "y*",
+                "z*",
+                "A*",
+                "B*",
+                "C*",
+                "D*",
+                "E*",
+                "F*",
+                "G*",
+                "H*",
+                "I*",
+                "J*",
+                "K*",
+                "L*",
+                "M*",
+                "N*",
+                "O*",
+                "P*",
+                "Q*",
+                "R*",
+                "S*",
+                "T*",
+                "U*",
+                "V*",
+                "W*",
+                "X*",
+                "Y*",
+                "Z*"
+              ],
+              ":BLANK_LINE:",
+              ["@*", "@*/**"],
+              ":BLANK_LINE:",
+              ":ALIAS:",
+              ":BLANK_LINE:",
+              ":PATH:"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "suspicious": {
+        "noUnknownAtRules": "off"
+      },
+      "a11y": {
+        "useButtonType": "off",
+        "noSvgWithoutTitle": "off"
+      }
+    },
+    "domains": {
+      "next": "recommended",
+      "react": "recommended"
+    }
+  },
+  "css": {
+    "parser": {
+      "tailwindDirectives": true
+    }
+  }
+}

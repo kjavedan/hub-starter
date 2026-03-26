@@ -1,0 +1,12 @@
+{
+  "folders": [
+    { "name": "Root", "path": "." },
+    { "name": "API", "path": "apps/api" },
+    { "name": "Web", "path": "apps/web" },
+    { "name": "Contracts", "path": "packages/contracts" },
+    { "name": "UI", "path": "packages/ui" },
+    { "name": "DB", "path": "packages/db" },
+    { "name": "Config", "path": "packages/config" }
+  ],
+  "settings": {}
+}

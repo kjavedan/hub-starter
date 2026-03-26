@@ -1,0 +1,19 @@
+{
+  "name": "@hub-starter/contracts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "biome check .",
+    "format": "biome check --write ."
+  },
+  "dependencies": {
+    "@ts-rest/core": "^3.52.1",
+    "zod": "^3.23.8"
+  }
+}

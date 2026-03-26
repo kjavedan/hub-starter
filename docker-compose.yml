@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:17
+    restart: always
+    environment:
+      POSTGRES_DB: hub-starter
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
+    volumes:
+      - hub-starter_data:/var/lib/postgresql/data
+
+volumes:
+  hub-starter_data:
