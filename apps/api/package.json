@@ -9,7 +9,7 @@
     "start": "node --import tsx index.ts",
     "lint": "biome check .",
     "format": "biome check --write .",
-    "test": "vitest run",
+    "test": "vitest run --passWithNoTests",
     "test:ui": "vitest --ui"
   },
   "dependencies": {
